@@ -15,8 +15,8 @@ export function SubmissionForm() {
     setMessage('');
 
     // =======================================================================
-    // IMPORTANT: Replace this with your actual Google Cloud Function URL
-    const endpoint = 'https://your-region-your-project.cloudfunctions.net/your-function-name';
+    // This is now your live production endpoint.
+    const endpoint = 'https://australia-southeast1-podcasttranscriber-460408.cloudfunctions.net/rss_to_transcribe';
     // =======================================================================
 
     try {
