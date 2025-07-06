@@ -1,4 +1,5 @@
-`import Image from 'next/image'
+// src/components/Hero.tsx
+import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -10,7 +11,7 @@ import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
 import { SubmissionForm } from '@/components/SubmissionForm'
 
-
+// The 'export' keyword is the crucial part that was likely missing.
 export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
@@ -72,4 +73,3 @@ export function Hero() {
     </Container>
   )
 }
-`
