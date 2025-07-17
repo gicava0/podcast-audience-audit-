@@ -1,4 +1,3 @@
-// Forcing a redeploy
 // // src/components/SubmissionForm.tsx
 'use client';
 

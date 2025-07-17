@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Accounting{' '}
+        Audience Clarity{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
             aria-hidden="true"
@@ -28,11 +28,10 @@ export function Hero() {
           </svg>
           <span className="relative">made simple</span>
         </span>{' '}
-        for small businesses.
+        for podcasters.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most bookkeeping software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
+        Stop guessing. Get a data-driven audit of your podcast's content-audience alignment in minutes.
       </p>
       <SubmissionForm />
       <div className="mt-36 lg:mt-44">
