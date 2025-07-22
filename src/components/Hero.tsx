@@ -34,7 +34,9 @@ export function Hero() {
         Stop guessing. Get a data-driven audit of your podcast's content-audience alignment in minutes.
       </p>
       <SubmissionForm />
-     
-    </Container>
+            <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+     Most podcasters guess what works. We don’t. Audience Audit gives you a clear, data-backed view of who you’re really reaching—and what to improve to keep them listening.
+           </p>
+      </Container>
   )
 }
