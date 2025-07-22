@@ -34,7 +34,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={clsx(
-        'h-full scroll-smooth bg-white antialiased',
+        'h-full scroll-smooth bg-gradient-to-b from-blue-50 to-white antialiased',
         inter.variable,
         lexend.variable,
       )}

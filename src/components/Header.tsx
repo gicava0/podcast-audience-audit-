@@ -13,7 +13,7 @@ export function Header() {
           {/* This part contains the logo, which we are keeping. */}
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="h-13 w-auto" />
             </Link>
           </div>
 

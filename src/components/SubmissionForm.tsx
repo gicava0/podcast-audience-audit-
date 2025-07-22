@@ -58,7 +58,7 @@ export function SubmissionForm() {
           placeholder="Enter Podcast RSS Feed URL"
           required
           // Using the styles from the previous fix
-          className="w-full rounded-md border border-gray-300 bg-white px-4 py-3 text-gray-900 focus:ring-2 focus:ring-inset focus:ring-cyan-400"
+          className="w-full rounded-md border border-gray-300 bg-white px-4 py-3 text-gray-900 shadow-sm focus:ring-2 focus:ring-inset focus:ring-cyan-400"
         />
         <input
           type="email"
@@ -67,7 +67,7 @@ export function SubmissionForm() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter Your Email Address"
           required
-          className="w-full rounded-md border border-gray-300 bg-white px-4 py-3 text-gray-900 focus:ring-2 focus:ring-inset focus:ring-cyan-400"
+          className="w-full rounded-md border border-gray-300 bg-white px-4 py-3 text-gray-900 shadow-sm focus:ring-2 focus:ring-inset focus:ring-cyan-400"
         />
         <button
           type="submit"
