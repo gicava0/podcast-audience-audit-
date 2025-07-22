@@ -6,11 +6,11 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Audience-Audit',
+    default: 'Audience-Audit - Audience clarity made simple for podcasters',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Most podcasters guess what works. We don’t. Audience Audit gives you a clear, data-backed view of who you’re really reaching—and what to improve to keep them listening',
 }
 
 const inter = Inter({
