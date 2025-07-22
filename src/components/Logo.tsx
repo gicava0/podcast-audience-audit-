@@ -3,7 +3,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink" // FIX: Changed xmlns:xlink
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       version="1.1"
       width="3171.4285714285716"
       height="2083.9812619820023"
@@ -14,31 +14,29 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
         <defs id="SvgjsDefs1020"></defs>
         <g
           id="SvgjsG1021"
-          featureKey="ghXSps-0"
           transform="matrix(1.709775787074475,0,0,1.709775787074475,89.73166096150051,-17.491005519098636)"
           fill="#004aac"
         >
           <g xmlns="http://www.w3.org/2000/svg">
             <path
-              fillRule="evenodd" // FIX: Changed fill-rule
-              clipRule="evenodd" // FIX: Changed clip-rule
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M80.11,49.695c0.003,5.951,1.481,10.771,3.303,10.771   c1.823,0,3.302-4.824,3.305-10.768c-0.003-5.951-1.479-10.773-3.303-10.773C81.591,38.926,80.107,43.748,80.11,49.695z"
             ></path>
             <path
-              fillRule="evenodd" // FIX: Changed fill-rule
-              clipRule="evenodd" // FIX: Changed clip-rule
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M39.138,14.154c-15.075,6.26-25.529,19.93-25.529,35.779   c-0.004,15.852,10.454,29.52,25.536,35.777C30.504,78.232,24.764,65,24.764,49.934S30.508,21.637,39.138,14.154z"
             ></path>
             <path
-              fillRule="evenodd" // FIX: Changed fill-rule
-              clipRule="evenodd" // FIX: Changed clip-rule
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M49.349,10.23c-7.066,0-12.803,17.854-12.803,39.857   c0,22.016,5.736,39.859,12.808,39.861c3.491-0.002,6.66-4.367,8.969-11.438c1.954,4.756,4.414,7.598,7.084,7.598   c6.367,0.002,11.532-16.066,11.527-35.883c0.005-19.816-5.156-35.887-11.521-35.879c-2.651,0-5.093,2.797-7.041,7.484   C56.057,14.668,52.871,10.234,49.349,10.23z M75.225,50.227c0.005,11.121-2.764,20.143-6.174,20.143   c-3.412,0-6.176-9.023-6.176-20.139c0-11.127,2.764-20.146,6.176-20.15C72.465,30.084,75.229,39.102,75.225,50.227z M57.792,23.318   c-2.395,6.576-3.907,16.191-3.907,26.908c-0.001,10.623,1.484,20.166,3.841,26.736c-1.15,1.559-2.418,2.424-3.748,2.424   c-5.202-0.004-9.414-13.117-9.414-29.299c0-16.174,4.212-29.293,9.407-29.293C55.333,20.797,56.626,21.701,57.792,23.318z"
             ></path>
           </g>
         </g>
         <g
           id="SvgjsG1022"
-          featureKey="anH1Ye-0"
           transform="matrix(3.3416076154668812,0,0,3.3416076154668812,-0.9356502359019009,137.48749871799373)"
           fill="#004aac"
         >
@@ -46,7 +44,6 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
         </g>
         <g
           id="SvgjsG1023"
-          featureKey="XxVAgm-0"
           transform="matrix(0.5592260467157423,0,0,0.5592260467157423,34.32892871727513,211.77885784292064)"
           fill="#004aac"
         >
