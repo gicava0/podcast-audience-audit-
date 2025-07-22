@@ -31,7 +31,7 @@ export function Hero() {
         for podcasters.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Stop guessing. Get a data-driven audit of your podcast's content-audience alignment in minutes.
+        Stop guessing. Get a data-driven audit of your podcast's content-audience alignment in under an hour.
       </p>
       <SubmissionForm />
             <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
