@@ -8,7 +8,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
       width="3171.4285714285716"
       height="2083.9812619820023"
       viewBox="0 0 3171.4285714285716 2083.9812619820023"
-      {...props} // This passes down styling props like className
+      {...props}
     >
       <g transform="scale(8.571428571428571) translate(10, 10)">
         <defs id="SvgjsDefs1020"></defs>
