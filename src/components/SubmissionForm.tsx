@@ -15,7 +15,7 @@ export function SubmissionForm() {
     setStatus('loading');
     setMessage('');
 
-    const endpoint = 'https://rss-to-transcribe-fn-l22v5x7jnq-as.a.run.app';
+    const endpoint = 'https://australia-southeast1-podcasttranscriber-460408.cloudfunctions.net/rss-to-transcribe-fn';
 
     try {
       const response = await fetch(endpoint, {
