@@ -21,7 +21,7 @@ export async function POST(request: Request) {
       line_items: [
         {
           price_data: {
-            currency: 'usd',
+            currency: 'AUD',
             product_data: {
               name: 'Podcast Audience Audit',
               description: 'Deep-dive AI strategy report for your podcast.',
@@ -33,6 +33,7 @@ export async function POST(request: Request) {
       ],
       mode: 'payment',
       // 🛑 THIS IS THE MAGIC TRICK: We attach the podcast info to the payment so we don't lose it!
+      allow_promotion_codes: true,
       metadata: {
         rss_url: rss_url,
         email: email,
