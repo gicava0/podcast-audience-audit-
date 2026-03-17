@@ -3,7 +3,7 @@ import Stripe from 'stripe';
 
 // This grabs your Stripe Secret Key from Vercel's secure vault (we will add it there next)
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
-  apiVersion: '2024-06-20',
+  apiVersion: '2026-02-25.clover',
 });
 
 export async function POST(request: Request) {
