@@ -20,17 +20,17 @@ export async function POST(request: Request) {
       payment_method_types: ['card'],
       line_items: [
         {
-          price_data: {
-            currency: 'AUD',
-            product_data: {
-              name: 'Podcast Audience Audit',
-              description: 'Deep-dive AI strategy report for your podcast.',
-            },
-            unit_amount: 4900, // This is $49.00. Change this number to whatever you want!
-          },
+          // We deleted the hardcoded price_data and put your exact ID here!
+          price: 'price_1TBnDhS1DFd0SSg1mH2Ala6U',
           quantity: 1,
         },
       ],
+      mode: 'payment',
+      allow_promotion_codes: true, // This makes the promo box appear
+      metadata: {
+        rss_url: rss_url,
+        email: email,
+      },
       mode: 'payment',
       // 🛑 THIS IS THE MAGIC TRICK: We attach the podcast info to the payment so we don't lose it!
       allow_promotion_codes: true,
