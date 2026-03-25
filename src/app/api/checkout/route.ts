@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
 
-// This grabs your Stripe Secret Key from Vercel's secure vault (we will add it there next)
+// This grabs your Stripe Secret Key from Vercel's secure vault
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
   apiVersion: '2026-02-25.clover',
 });
@@ -20,20 +20,13 @@ export async function POST(request: Request) {
       payment_method_types: ['card'],
       line_items: [
         {
-          // We deleted the hardcoded price_data and put your exact ID here!
           price: 'price_1TBnDhS1DFd0SSg1mH2Ala6U',
           quantity: 1,
         },
       ],
       mode: 'payment',
-      allow_promotion_codes: true, // This makes the promo box appear
-      metadata: {
-        rss_url: rss_url,
-        email: email,
-      },
-      mode: 'payment',
-      // 🛑 THIS IS THE MAGIC TRICK: We attach the podcast info to the payment so we don't lose it!
       allow_promotion_codes: true,
+      // 🛑 THIS IS THE MAGIC TRICK: We attach the podcast info to the payment so we don't lose it!
       metadata: {
         rss_url: rss_url,
         email: email,
