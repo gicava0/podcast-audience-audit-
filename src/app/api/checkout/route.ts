@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { rss_url, email } = body;
+    const { rss_url, email, website_url } = body;
 
     if (!rss_url || !email) {
       return NextResponse.json({ error: 'Missing rss_url or email' }, { status: 400 });
@@ -30,10 +30,11 @@ export async function POST(request: Request) {
       metadata: {
         rss_url: rss_url,
         email: email,
+        website_url: website_url || 'none',
       },
       // Where to send them after they pay (or if they click back)
-      success_url: `${request.headers.get('origin')}/?success=true`,
-      cancel_url: `${request.headers.get('origin')}/?canceled=true`,
+      success_url: `${request.headers.get('origin')}/success`,
+      cancel_url: `${request.headers.get('origin')}/`,
     });
 
     return NextResponse.json({ url: session.url });
